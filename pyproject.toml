@@ -3,8 +3,10 @@ name = "federated-anomaly-lab"
 version = "0.1.0"
 description = "Experiments on federated anomaly detection under heterogeneous and malicious client behavior."
 readme = "README.md"
-requires-python = ">=3.11,<3.12"
-dependencies = []
+requires-python = ">=3.11"
+dependencies = [
+    "pandas",
+]
 
 [tool.ruff]
 target-version = "py311"
