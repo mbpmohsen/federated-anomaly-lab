@@ -1,7 +1,6 @@
-import pandas as pd
-
 from pathlib import Path
 
+import pandas as pd
 
 ENERGY_COLUMN = "KWH/hh (per half hour)"
 
